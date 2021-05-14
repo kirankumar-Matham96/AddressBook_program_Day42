@@ -168,4 +168,21 @@ let person1 = new Person(
   "email@gmail.com"
 );
 
-console.log(person1);
+//object creation(adding new person)
+let person2 = new Person(
+  "Kiran2",
+  "kumar2",
+  "address2",
+  "city2",
+  "state2",
+  451670,
+  "+91 2222222222",
+  "email2@gmail.com"
+);
+
+//array to store object of person
+let addressBookArray = new Array();
+
+//adding persons to the addressbook array
+addressBookArray.push(person1);
+addressBookArray.push(person2);
